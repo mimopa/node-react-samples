@@ -32,7 +32,7 @@ class CustomForm extends React.Component {
     // ASCII文字以外全部
     const asciiFilter = /[^\u0020-\u007e]+/g
     return (
-      <form method="POST" onSubmit={doSubmit} action="https://g2v6i3as6i.execute-api.ap-northeast-1.amazonaws.com/prod/regist">
+      <form method="POST" onSubmit={doSubmit} action="">
         <FormInput type="text" name='email' label='メール'
           value={this.state.email}
           filter={asciiFilter}

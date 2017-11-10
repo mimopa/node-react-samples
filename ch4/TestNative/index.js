@@ -5,7 +5,7 @@ import {
 } from 'react-native'
 
 // Amazon API Gatewayのエンドポイント指定
-const apiEndpoint = 'https://g2v6i3as6i.execute-api.ap-northeast-1.amazonaws.com/prod/regist'
+const apiEndpoint = ''
 
 // Amazon API Gatewayを呼び出す関数を定義
 function callAPI (apiEndpoint, options, callback) {
